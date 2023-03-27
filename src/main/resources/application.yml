@@ -1,0 +1,16 @@
+cloud:
+  aws:
+    region:
+      static: ap-south-1
+      auto: false
+    stack:
+      auto: false
+    credentials:
+      access-key:
+      secret-key:
+    end-point:
+      uri: sqs ip address
+
+
+server:
+  port: 8083
